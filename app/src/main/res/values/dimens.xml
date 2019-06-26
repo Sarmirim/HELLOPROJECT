@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    ////////////////
+    <dimen name="drawer_item_highlight_corner_radius_left">0.0dip</dimen>
+    <dimen name="drawer_item_highlight_corner_radius_right">40.0dip</dimen>
+    <dimen name="drawer_item_highlight_margin_left">0.0dip</dimen>
+    <dimen name="drawer_item_highlight_margin_right">8.0dip</dimen>
+    <dimen name="drawer_item_icon_size">24.0dip</dimen>
+    <dimen name="drawer_item_text_margin">16.0dip</dimen>
+    <dimen name="drawer_label_header_end_padding">24.0dip</dimen>
+    <dimen name="drawer_label_item_text_margin">64.0dip</dimen>
+    <dimen name="drawer_landing_page_fixed_height">48.0dip</dimen>
+    <dimen name="drawer_link_page_fixed_height">44.0dip</dimen>
+    <dimen name="drawer_side_padding">24.0dip</dimen>
+    <dimen name="drawer_width">320.0dip</dimen>
+
+</resources>
+
+

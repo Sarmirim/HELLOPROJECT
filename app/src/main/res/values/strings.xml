@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">HELLOPROJECT</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">First</string>
+    <string name="sync_header">Second</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Enter</string>
+    <string name="reply_title">Choose</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">ON/OFF</string>
+    <string name="attachment_title">Second</string>
+    <string name="attachment_summary_on">Pressed
+    </string>
+    <string name="attachment_summary_off">Untouched</string>
+    <string name="text_header">Settings_text</string>
+</resources>
