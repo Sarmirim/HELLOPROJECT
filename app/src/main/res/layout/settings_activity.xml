@@ -3,7 +3,7 @@
     android:layout_height="match_parent"
     android:orientation="horizontal"
     android:theme="@style/AppTheme"
-    android:background="#232F34" >
+    android:background="@color/colorBackground" >
 
 
     <FrameLayout
