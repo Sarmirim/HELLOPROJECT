@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -31,7 +31,7 @@
         <item name="android:textViewStyle">@style/PreferenceStyle</item>
     </style>
     <style name="PreferenceStyle" parent="android:Widget.TextView">
-        <item name="android:textColor">#C41212</item>
+        <item name="android:textColor">@color/colorText</item>
         <item name="android:textColorSecondary">#8F8F89</item>
     </style>
 

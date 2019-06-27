@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">HELLOPROJECT</string>
+    <string name="app_name"></string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Хейдер</string>
@@ -14,7 +14,9 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+    <string name="menu_about">Информация</string>
     <string name="title_activity_settings">Настройки</string>
+    <string name="title_activity_about">Информация</string>
 
     <!-- Preference Titles -->
     <string name="messages_header">Первые пункты</string>
