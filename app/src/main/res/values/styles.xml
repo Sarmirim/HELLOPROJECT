@@ -6,6 +6,9 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorText</item>
+        <item name="android:textColorSecondary">@color/colorText</item>
+        <item name="android:textColorTertiary">#8F8F89</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -30,6 +33,10 @@
     <style name="PreferenceStyle" parent="android:Widget.TextView">
         <item name="android:textColor">#C41212</item>
         <item name="android:textColorSecondary">#8F8F89</item>
+    </style>
+
+    <style name="NavigationView">
+        <item name="android:textColorSecondary">@color/colorText</item>
     </style>
 
 </resources>
