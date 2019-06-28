@@ -21,6 +21,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.Menu;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -91,14 +92,19 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_home) {
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
+            Toast.makeText(MainActivity.this, "TEXT1", Toast.LENGTH_SHORT).show();
 
         } else if (id == R.id.nav_slideshow) {
+            Toast.makeText(MainActivity.this, "TEXT2", Toast.LENGTH_SHORT).show();
 
         } else if (id == R.id.nav_tools) {
+            Toast.makeText(MainActivity.this, "TEXT3", Toast.LENGTH_SHORT).show();
 
         } else if (id == R.id.nav_share) {
+            Toast.makeText(MainActivity.this, "TEXT4", Toast.LENGTH_SHORT).show();
 
         } else if (id == R.id.nav_send) {
+            Toast.makeText(MainActivity.this, "TEXT5", Toast.LENGTH_SHORT).show();
 
         } else if (id == R.id.nav_about) {
             Intent intent = new Intent(MainActivity.this, AboutActivity.class);
