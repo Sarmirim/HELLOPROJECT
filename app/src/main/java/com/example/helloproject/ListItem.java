@@ -7,11 +7,18 @@ public class ListItem {
     //Image (int, String??)
     private int mImageId;
 
-    public ListItem(String vName, int vImageeId)
+    public ListItem(String vName, int vImageId)
 
     {
         mNameOfItem = vName;
-        mImageId= vImageeId;
+        mImageId = vImageId;
+    }
+
+    public ListItem(String vName)
+
+    {
+        mNameOfItem = vName;
+        mImageId = 0;
     }
 
     // Getters
