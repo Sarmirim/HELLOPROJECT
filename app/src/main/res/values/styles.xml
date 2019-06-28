@@ -15,10 +15,9 @@
         <item name="android:textColorTertiary">#8F8F89</item>
         <item name="android:statusBarColor">@color/colorPrimaryDark</item>
         <item name="android:windowBackground">#232F34</item>
-        <item name="android:windowNoTitle">true</item>
     </style>
 
-    <style name="AppTheme.NoActionBar">
+    <style name="AppTheme.NoActionBar" parent="android:Theme.Material">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="android:statusBarColor">@color/colorPrimaryDark</item>
@@ -46,7 +45,7 @@
     </style>
     <style name="PreferenceStyle" parent="android:Widget.TextView">
         <item name="android:textColorPrimary">@color/colorText</item> <!--textColorPrimary = textColor-->
-        <item name="android:textColorAlertDialogListItem">#8F8F89</item>
+        <item name="android:textColorAlertDialogListItem">#8D8D87</item>
 
         <item name="android:textColorSecondary">#8F8F89</item>
     </style>
@@ -57,16 +56,16 @@
 
 
 
-    <style name="MaterialStyle" parent="android:Theme.Material.Light.NoActionBar.Fullscreen">
+    <style name="MaterialStyle" parent="android:Theme.Material.Light">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:textColorPrimary">@color/colorText</item>
         <item name="android:textColorSecondary">@color/colorText</item>
-        <item name="android:textColorTertiary">#8F8F89</item>
+        <item name="android:textColorTertiary">#FFFFFF</item>
         <item name="android:statusBarColor">@color/colorPrimaryDark</item>
         <item name="android:windowBackground">#232F34</item>
-        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorBackground">#232F34</item>
     </style>
 </resources>
