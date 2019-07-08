@@ -8,6 +8,7 @@
     <string name="nav_header_subtitle">Субтитры</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Настройки</string>
+    <string name="author_post">Автор </string>
 
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>

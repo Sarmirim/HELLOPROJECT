@@ -1,6 +1,9 @@
 package com.example.helloproject;
 
 import android.content.Intent;
+import android.content.res.ColorStateList;
+import android.graphics.Color;
+import android.graphics.PorterDuff;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -15,6 +18,7 @@ import android.view.MenuItem;
 
 import com.google.android.material.navigation.NavigationView;
 
+import androidx.core.widget.ImageViewCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -98,13 +102,21 @@ public class MainActivity extends AppCompatActivity
             Toast.makeText(MainActivity.this, "TEXT2", Toast.LENGTH_SHORT).show();
 
         } else if (id == R.id.nav_tools) {
-            Toast.makeText(MainActivity.this, "TEXT3", Toast.LENGTH_SHORT).show();
 
         } else if (id == R.id.nav_share) {
-            Toast.makeText(MainActivity.this, "TEXT4", Toast.LENGTH_SHORT).show();
+            setContentView(R.layout.activity_main);
 
         } else if (id == R.id.nav_send) {
-            Toast.makeText(MainActivity.this, "TEXT5", Toast.LENGTH_SHORT).show();
+            FloatingActionButton view = findViewById(R.id.fab);
+
+            /*view.setBackgroundColor(R.color.colorText)*/
+            view.setBackgroundColor(Color.parseColor("#01ff90"));
+            view.setColorFilter(Color.WHITE, PorterDuff.Mode.MULTIPLY);
+            //view.tint
+            FloatingActionButton myFab = (FloatingActionButton) findViewById(R.id.fab);
+
+            myFab.setColorFilter(getResources().getColor(R.color.colorPrimary));
+            myFab.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
 
         } else if (id == R.id.nav_about) {
             Intent intent = new Intent(MainActivity.this, AboutActivity.class);
@@ -121,4 +133,17 @@ public class MainActivity extends AppCompatActivity
         Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
         startActivity(intent);
     }
+
+    public void setActivityBackgroundColor(int color) {
+        View view = this.getWindow().getDecorView();
+        view.setBackgroundColor(color);
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+    }
+
+
+
 }

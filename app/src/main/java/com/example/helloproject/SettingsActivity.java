@@ -6,8 +6,12 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.preference.PreferenceFragmentCompat;
 
+
+
 public class SettingsActivity extends AppCompatActivity {
 
+    protected SettingsActivity mPreferenceManager;
+    //mPreferenceManager = SettingsActivity;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,4 +37,6 @@ public class SettingsActivity extends AppCompatActivity {
 
         }
     }
+
+
 }
